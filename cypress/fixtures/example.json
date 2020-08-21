@@ -1,0 +1,7 @@
+{
+  "name": "Bob Marley",
+  "email": "Bob@email.com",
+  "password": "BobMarley",
+  "gender":"Male",
+  "productname":["Blackberry","Nokia Edge"]
+}
