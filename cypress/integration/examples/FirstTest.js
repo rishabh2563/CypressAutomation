@@ -12,7 +12,7 @@ describe("My first test Suite", function () {
         cy.get('@productlocator').find('.product').should('have.length',4)
         // now moving to the 2nd product with the help of eq
         cy.get('@productlocator').find('.product').should('have.length',4).eq(2).contains('ADD TO CART').click().then(function(){
-            console.log("hello!!")// this will execute asynchronously because it is not a cypress command so inoder to make 
+            //console.log("hello!!")// this will execute asynchronously because it is not a cypress command so inoder to make 
         //it synchronous we need to handle the promise of the above stmt using then 
         })
         
